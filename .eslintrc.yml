@@ -1,0 +1,15 @@
+env:
+  node: true
+  es6: true
+globals:
+  Atomics: false
+  SharedArrayBuffer: false
+parser: ''
+parserOptions:
+  ecmaVersion: 2018
+  sourceType: module
+extends:
+  - "@risky-robot/eslint-config/import"
+  - "@risky-robot/eslint-config/mocha"
+  - "@risky-robot/eslint-config/recommended"
+
